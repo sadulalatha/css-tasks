@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown button{
+            background-color: rgb(126, 126, 227);
+            margin-left: 20%;
+            height: 100px;
+            width: 150px;
+            display: none;
+            display: block;  
+
+        }
+        .dropdown a{
+            display: block;
+            text-decoration: none;
+            
+            color: black;
+            padding: 10px;
+            font-size: x-large;
+        }
+        .dropdown .d1{
+            display: none;
+            position: absolute;
+            background-color: rgb(194, 195, 233);
+            width: 150px;
+            box-shadow: 5px 5px;
+            margin-left: 25%;
+        }
+        .dropdown:hover .d1{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+          <div class="dropdown">
+              <button><h1>Dropdown</h1></button>
+          <div class="d1">
+              <a href="">Home</a>
+              <a href="">About</a>
+              <a href="">Contact</a>
+        </div>
+        </div>
+</body>
+</html>

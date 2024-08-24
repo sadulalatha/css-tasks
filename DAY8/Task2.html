@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            background-color: black;
+            width: 25px;
+            height: 5px;
+            margin: 3px;
+        }
+        nav{
+            background-color:white;
+            height: 5vh;
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            font-size: xx-large;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            column-gap: 2%;
+        }
+        main{
+            margin-top: 80px;
+            display: grid;
+            height: 100vh;
+            grid-template-columns: auto auto auto auto; 
+            margin-left: 6%;
+            margin-right: 2%;
+            
+        }
+        .i1{
+            width: 21vw;
+            border: none;
+            padding: 5px;
+        }
+        
+        .p1{
+            font-size: xx-large;
+            width: 250px;
+        }
+        .p2{
+            font-size: larger;
+            width: 250px;
+        }
+        .image{
+            height: max-content;
+            width: 280px;
+        }
+       
+        @media only screen and (width<1000px){
+            main{
+                grid-template-columns: auto auto;
+            }
+            body{
+                background-color: darkgray;
+            }
+
+        }
+        @media only screen and (width<500px){
+            main{
+                grid-template-columns:auto ;
+            }
+            body{
+                background-color: cyan;
+            }
+        }
+     
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+             <div>
+             <div class="menu"></div>
+             <div class="menu"></div>
+             <div class="menu"></div></div>
+             <div>My Food</div>
+             <div>Mail</div>
+        </nav>
+        <main>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/sandwich.jpg" class="image">
+                 <p class="p1">The Perfect Sandwich, A Real NYC Classic</p>
+                 <p class="p2">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/steak.jpg" class="image">
+                 <p class="p1">Let Me Tell You About This Steak</p>
+                 <p class="p2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/cherries.jpg" class="image">
+                 <p class="p1">Cherries, interrupted</p>
+                 <p class="p2">Lorem ipsum text praesent tincidunt ipsum lipsum.<br><br>
+
+                    What else?</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/wine.jpg" class="image">
+                 <p class="p1">Once Again, Robust Wine and Vegetable Pasta</p>
+                 <p class="p2">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+           
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/popsicle.jpg" class="image">
+                 <p class="p1">All I Need Is a Popsicle</p>
+                 <p class="p2">Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/salmon.jpg" class="image">
+                 <p class="p1">Salmon For Your Skin</p>
+                 <p class="p2">Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/sandwich.jpg" class="image">
+                 <p class="p1">The Perfect Sandwich, A Real Classic</p>
+                 <p class="p2">Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+             </div>
+             <div class="i1">
+                 <img src="https://www.w3schools.com/w3images/croissant.jpg" class="image">
+                 <p class="p1">Le French</p>
+                 <p class="p2">Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </main>
+    </div>
+    
+</body>
+</html>
